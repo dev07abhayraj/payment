@@ -1,4 +1,4 @@
 # Screenshot of Payment Gateway
 <img src="image.png" alt="">
-# Screenshot of Payment Gateway after entering UPI ID
-<img src="image1.png" alt="">
+<h1> Screenshot of Payment Gateway after entering UPI ID </h1>
+<img src="image2.png" alt="">
