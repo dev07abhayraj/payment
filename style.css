@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background-color: aqua;
+}
+#paymentLink{
+    opacity: 0;
+}
+label {
+    margin-bottom: 12px;
+}
+input#amount {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+}
+#paytmLink{
+    opacity: 0;
+}
+div#qrCode {
+    margin: 13px;
+}
+.space {
+    justify-content: space-around;
+    display: grid;
+    align-content: center;
+}
+input#upiID {
+    border-width: 3px;
+    border-color: red;
+    padding: 8px;
+    border-radius: 7px;
+    margin-bottom: 31px;
+}
+button {
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

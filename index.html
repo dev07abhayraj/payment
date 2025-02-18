@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhonePe UPI Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Powered By CosmoTrinity Technology</h1>
+    <h1>Payment Gateway</h1>
+    <h2>PhonePe UPI Payment</h2>
+    
+    <label for="upiID">Enter UPI ID:</label>
+    <input type="text" id="upiID" placeholder="example@upi">
+    
+    <label for="amount">Enter Amount:</label>
+    <input type="number" id="amount" placeholder="Enter Amount">
+    
+    <button onclick="generatePaymentLink()">Generate Payment</button>
+
+    <h3>Scan QR Code or Click Below:</h3>
+    <div id="qrCode"></div>
+    
+    <a id="paymentLink" href="#" target="_blank" style="display:none; font-size: 18px; color: blue; text-decoration: underline;">Click Here to Pay with PhonePe</a>
+    
+    <p id="paymentStatus"></p>
+
+
+
+</body>
+</html>
