@@ -92,5 +92,5 @@
 
 <h2 align="center">📬 Connect with Me</h2>
 <p align="center">
-  Made with ❤️ by <b>Your Name</b>
+  Made with ❤️ by <b>Abhayraj Patel</b>
 </p>
